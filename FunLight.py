@@ -23,8 +23,7 @@ UKR_PAY_CONTACT = "@polihochkaa"
 OTHER_PAY_CONTACT = "@TvoiDillivery"
 
 # Настройка прокси (исправляет ошибку с image_ff9628.png)
-session = AiohttpSession(proxy="http://proxy.server:3128")
-bot = Bot(token=TOKEN, session=session)
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 class SupportState(StatesGroup):
